@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/JiPoZhuan2/Assets/TextMesh Pro
+/JiPoZhuan2/Library
