@@ -86,7 +86,7 @@ namespace JiPoZhuan.Managers
                 int   charCount = Mathf.CeilToInt(gameScreenW / charSpacing) + 1;
                 float rowWidth  = charCount * charSpacing;
 
-                Color color = new Color(0.75f, 0.88f, 1f, alpha);
+                Color color = new Color(0.6f, 0.68f, 0.7f, alpha);
 
                 for (int charIdx = 0; charIdx < charCount; charIdx++)
                 {

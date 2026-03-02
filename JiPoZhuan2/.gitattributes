@@ -1,0 +1,50 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unity serialized files
+*.meta text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.prefab text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.physicMaterial text eol=lf
+*.physicsMaterial2D text eol=lf
+*.lighting text eol=lf
+*.giparams text eol=lf
+*.renderTexture text eol=lf
+
+# Source code
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.hlsl text
+
+# Config
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.tiff binary
+*.psd binary
+*.pdf binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.dll binary
+*.exe binary
+*.so binary
+*.a binary
+*.unitypackage binary
